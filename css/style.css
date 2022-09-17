@@ -1,0 +1,100 @@
+body {
+    margin: 0
+}
+
+.top {
+    background: rgb(255, 221, 255);
+    height: 1112px;
+}
+
+.middle > h1, h2, h3 {
+    color: rgb(129, 252, 234);
+    text-shadow: 1px 1px 1px black;
+    font-family: "Roboto mono";
+}
+
+.middle > h4, h5, h6, ul, dl, p {
+    font-family: 'Roboto';
+    font-size: 20px;
+    padding: 10px 10px;
+}
+.bottom {
+    background: powderblue;
+    font-style: italic;
+}
+
+a:link {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+a:visited {
+    text-decoration: none;
+    color: palevioletred;
+}
+
+a:hover {
+    background-color: rgb(129, 252, 234);
+ }
+
+
+.button {
+    background-color: rgb(129, 252, 234);
+    border: none;
+    color: white;
+    padding: 25px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Roboto';
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  hr {
+    border: 10px dashed rgb(255, 221, 255);
+    clear: both;
+  }
+
+  div > p, h1, h2, h3, h4, h5, h6, ul {
+    text-align: center;
+  }
+
+   .imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #palm {
+    position: absolute;
+    border: 0px;
+    min-width: 2560px;
+  }
+
+  #uga {
+    position: absolute;
+    right: 750px;
+    border: 0px;
+  }
+
+  #headshot {
+    border-radius: 50%;
+  }
+
+.right {
+    float: right;
+    width: 40%;
+}
+
+.left {
+    float: left;
+    margin-left: 500px;
+}
+
+#input {
+    position:relative;
+    top: 32px;
+}
